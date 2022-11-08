@@ -1,44 +1,26 @@
 .header{
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: left;
-    display: inline;
-}
-
-ul {
+  width: 100%;
+  height: 500px;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
-  background-color: #333;
-  text-align: right;
-}
-
-li {
-  float:left;
-}
-
-li a {
-  display: block;
-  color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: inline;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+h1{
+  float: right;
+  text-align: center;
+  padding: 100px;
+  padding-right: 300px;
 }
 
-.header-image{
-  width: 100%;
+.portrait-image{
+  width: 300px;
   height: 300px;
-  padding-top: 10px;
+  padding: 20px;
+  border-radius: 200px;
 }
 
 .main-content{
@@ -50,47 +32,44 @@ li a:hover {
 
 #box-1{
   background-color: aqua;
-  height: 400px;
+  height: 500px;
   width: 50%;
   border: 10px blue solid;
   float: right;
+
+}
+
+#box-1-image{
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 #box-2{
   background-color: aqua;
-  height: 400px;
+  height: 500px;
   width: 50%;
   border: 10px blue solid;
+}
+
+#box-2-image{
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 #box-3{
   background-color: aqua;
   height: 400px;
-  width: 50%;
-  border: 10px blue solid;
-  float: right;
-}
-
-#box-4{
-  background-color: aqua;
-  height: 400px;
-  width: 50%;
-  border: 10px blue solid;
-}
-
-#box-5{
-  background-color: aqua;
-  height: 300px;
-  width: 100%;
+  width: 98.8%;
   border: 10px blue solid;
 }
 
 
  
-  footer{
-    background-color: blue;    
-     text-align: center;    
-     bottom: 0px; 
-     width: 100%;
-     padding: 20px;
-  }
+.footer{
+  background-color: red;    
+  text-align: center;     
+  height: 20px;
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+}
