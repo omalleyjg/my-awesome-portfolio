@@ -1,51 +1,73 @@
 *{
-  margin: 20px;
+font-family: ;
 }
 
 .header{
-  display: inline-block;
-  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  background-color: steelblue;
   align-items: center;
   width: 100%;
+  height: 100px;
 }
 
 h1{
-  display: inline-block;
+  color: whitesmoke;
+  font-size: 30px;
+  display: flex;
+  margin-left: 5%;
 }
 
 .coverimage{
 width: 100%;
-height: 30px;
+height: 150px;
 }
 
 .contactme{
+  margin: 50px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .aboutme{
+  margin: 50px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .work{
+  margin: 50px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
 /* Navigation bar styling*/
-#navbar{
-  list-style: none;
-  display: inline-block;
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  font-size: 20px;
 }
 
+nav {
+margin-right: 5%;
+}
 
+#navbar{
+  color: white;
+}
 
+a:-webkit-any-link {
+  color: lightblue;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 /*Contact information styling*/
 #contactinfo{
-  list-style: none;
-  display: flex;
-  flex-wrap: row;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
 }
