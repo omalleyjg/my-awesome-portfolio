@@ -204,6 +204,15 @@ p {
     align-items: center;
 }
 
+.portfolio h2 {
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    color: steelblue;
+}
 /* Portfolio section ends */
 
 /* Contact me section starts */
@@ -216,6 +225,16 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-me h2 {
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    color: steelblue;
 }
 
 /* Contact me section ends */
