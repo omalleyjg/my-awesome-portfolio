@@ -7,6 +7,25 @@ body {
     text-align: left;
 }
 
+input{
+    border: 2px steelblue solid;
+    border-radius: 30px;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: gray;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: gray;
+  }
+
 /* Nav section starts */
 
 .sticky {
@@ -213,6 +232,17 @@ p {
     padding-bottom: 50px;
     color: steelblue;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects img {
+    padding: 10px;
+}
+
 /* Portfolio section ends */
 
 /* Contact me section starts */
@@ -236,5 +266,15 @@ p {
     padding-bottom: 50px;
     color: steelblue;
 }
+
+.contact-me #container{
+    flex-direction: column;
+}
+
+.textfields{
+    display: flex;
+    padding: 20px;
+}
+
 
 /* Contact me section ends */
