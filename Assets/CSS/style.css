@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Nav section starts */
+
+.sticky {
+    background-color: lightskyblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+
+}
+
+.list-inline {
+    list-style: none;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.list-inline>li {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+
+.list-inline>li:before {
+    content: "\200B";
+    /* 1 */
+    position: absolute;
+    /* 2 */
+}
+
+/* Nav section ends */
+
+/* Home section starts */
+
+header {
+    width: 100%;
+    height: 900px;
+    background-color: steelblue;
+    align-items: center;
+    display: flex;
+}
+
+h3 {
+    font-size: 40px;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+.button {
+    background-color: steelblue;
+    border: lightskyblue 3px solid;
+    color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    border-radius: 30px;
+}
+
+.home-image {
+    width: 400px;
+    height: 400px;
+    border: lightskyblue 3px solid;
+    border-radius: 300px;
+}
+
+#container {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    margin: auto;
+    width: fit-content;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home section ends */
+
+/* About me section starts */
+
+.about-image {
+    padding-right: 50px;
+}
+
+.about-me {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-me h2 {
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    color: steelblue;
+}
+
+p {
+    font-size: 17px;
+}
+
+.about-me-title {
+    font-size: 30px;
+    padding: 0px 0px 25px 0px;
+    display: block;
+    width: max-content;
+}
+
+.about-info li {
+    padding: 4px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+/* About me section ends */
+
+/* Education & experince section starts */
+
+.edu-exp {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-exp h2{
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    color: steelblue;
+}
+
+.education h3{
+display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+padding-left: 0px;
+}
+
+.experience h3{
+display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+padding-left: 0px;
+}
+
+/* Education & experience section ends */
