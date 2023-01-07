@@ -166,7 +166,7 @@ p {
     align-items: center;
 }
 
-.edu-exp h2{
+.edu-exp h2 {
     font-size: 50px;
     font-weight: 600;
     display: flex;
@@ -176,18 +176,46 @@ p {
     color: steelblue;
 }
 
-.education h3{
-display: flex;
-flex-direction: column;
-padding-bottom: 50px;
-padding-left: 0px;
+.education h3 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left: 0px;
 }
 
-.experience h3{
-display: flex;
-flex-direction: column;
-padding-bottom: 50px;
-padding-left: 0px;
+.experience h3 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left: 0px;
 }
 
 /* Education & experience section ends */
+
+/* Portfolio section starts */
+
+.portfolio {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Portfolio section ends */
+
+/* Contact me section starts */
+
+.contact-me {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact me section ends */
