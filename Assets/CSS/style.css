@@ -10,6 +10,7 @@ body {
 input{
     border: 2px steelblue solid;
     border-radius: 30px;
+    width: max-content;
 
 }
 
@@ -185,6 +186,11 @@ p {
     align-items: center;
 }
 
+.edu-exp .container{
+    display: flex;
+    flex-direction: column;
+}
+
 .edu-exp h2 {
     font-size: 50px;
     font-weight: 600;
@@ -193,6 +199,13 @@ p {
     align-items: center;
     padding-bottom: 50px;
     color: steelblue;
+}
+
+.edu-exp #container{
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    padding: 50px;
 }
 
 .education h3 {
@@ -204,6 +217,7 @@ p {
 
 .experience h3 {
     display: flex;
+    align-items: normal;
     flex-direction: column;
     padding-bottom: 50px;
     padding-left: 0px;
@@ -269,6 +283,7 @@ p {
 
 .contact-me #container{
     flex-direction: column;
+    float: none;
 }
 
 .textfields{
@@ -276,5 +291,19 @@ p {
     padding: 20px;
 }
 
+#name{
+    width: 100%;
+}
 
 /* Contact me section ends */
+
+/* Footer section starts */
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: steelblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* Footer section ends */
