@@ -257,6 +257,11 @@ p {
     padding: 10px;
 }
 
+
+.projects img:hover{
+    transform:scale(1.1);
+}
+
 /* Portfolio section ends */
 
 /* Contact me section starts */
