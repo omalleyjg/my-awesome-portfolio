@@ -18,12 +18,12 @@ If an employer wants to see my work, rather than going through github or going t
 
 - What did you learn?
 
-I learned the fundementals of HTML, CSS, and responsive design for modern webpages
+I learned the fundementals of HTML, CSS, and responsive design for modern webpages.
 
 ## Usage
 
     ```md
-    ![alt text](./Assets/images/DevJames.gif)
+    ![](https://github.com/omalleyjg/my-awesome-portfolio/DevJames.gif)
     ```
 
 ## License
