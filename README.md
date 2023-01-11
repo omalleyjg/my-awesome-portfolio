@@ -22,9 +22,7 @@ I learned the fundementals of HTML, CSS, and responsive design for modern webpag
 
 ## Usage
 
-    ```
-    ![Page Demo](./DevJames.gif)
-    ```
+![Demo](DevJames.gif)
 
 ## License
 
