@@ -22,8 +22,8 @@ I learned the fundementals of HTML, CSS, and responsive design for modern webpag
 
 ## Usage
 
-    ```md
-    ![](./Assets/images/DevJames.gif)
+    ```
+    !(./Assets/images/DevJames.gif)
     ```
 
 ## License
