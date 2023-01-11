@@ -11,7 +11,15 @@ input{
     border: 2px steelblue solid;
     border-radius: 30px;
     width: max-content;
+    padding: 10px;
 
+}
+
+textarea{
+    border: 2px steelblue solid;
+    border-radius: 15px;
+    width: max-content;
+    padding: 10px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -98,6 +106,11 @@ h1 {
     font-size: 16px;
     margin: 4px 50px;
     border-radius: 30px;
+}
+
+.button:hover{
+    background-color: lightskyblue;
+    color: steelblue;
 }
 
 .home-image {
@@ -307,10 +320,29 @@ p {
 .textfields{
     display: flex;
     padding: 20px;
+    width: fit-content;
 }
 
-#name{
-    width: 100%;
+#subject{
+    width: max-content;
+}
+
+#submit{
+    background-color: white;
+    border: steelblue 3px solid;
+    color: steelblue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    background-color: steelblue;
+    color: white;
 }
 
 /* Contact me section ends */
