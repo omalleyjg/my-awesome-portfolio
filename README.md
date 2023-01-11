@@ -23,7 +23,7 @@ I learned the fundementals of HTML, CSS, and responsive design for modern webpag
 ## Usage
 
     ```md
-    ![](https://github.com/omalleyjg/my-awesome-portfolio/DevJames.gif)
+    ![](https://github.com/my-awesome-portfolio/DevJames.gif)
     ```
 
 ## License
