@@ -23,7 +23,7 @@ I learned the fundementals of HTML, CSS, and responsive design for modern webpag
 ## Usage
 
     ```md
-    ![alt text](Assets/images/DevJames.gif)
+    ![alt text](./Assets/images/DevJames.gif)
     ```
 
 ## License
