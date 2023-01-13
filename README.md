@@ -24,6 +24,12 @@ I learned the fundementals of HTML, CSS, and responsive design for modern webpag
 
 ![Demo](DevJames.gif)
 
+## Deployed Link
+
+```
+https://omalleyjg.github.io/my-awesome-portfolio/
+```
+
 ## License
 
 MIT License
