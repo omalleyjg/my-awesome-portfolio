@@ -18,7 +18,7 @@ input{
 textarea{
     border: 2px steelblue solid;
     border-radius: 15px;
-    width: max-content;
+    width: 90%;
     padding: 10px;
 }
 
@@ -34,6 +34,24 @@ textarea{
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: gray;
   }
+
+.button {
+    background-color: steelblue;
+    border: lightskyblue 3px solid;
+    color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-color: lightskyblue;
+    color: steelblue;
+}
 
 /* Nav section starts */
 
@@ -114,8 +132,8 @@ h1 {
 }
 
 .home-image {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border: lightskyblue 3px solid;
     border-radius: 300px;
 }
@@ -127,22 +145,13 @@ h1 {
     align-items: center;
 }
 
-.home {
-    margin: auto;
-    width: fit-content;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Home section ends */
 
 /* About me section starts */
 
 .about-content img{
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 340px;
     border: steelblue 3px solid;
     border-radius: 15px;
 }
@@ -152,7 +161,7 @@ h1 {
 
 .about-me {
     margin: auto;
-    width: 50%;
+    width: 100%;
     background-color: white;
     height: 850px;
     display: flex;
@@ -179,16 +188,10 @@ p {
     font-size: 30px;
     padding: 0px 0px 25px 0px;
     display: block;
-    width: max-content;
 }
 
 .about-info li {
     padding: 4px;
-}
-
-.about-content {
-    display: flex;
-    justify-content: center;
 }
 
 /* About me section ends */
@@ -215,10 +218,15 @@ p {
     color: steelblue;
 }
 
-.projects {
+.container #container{
     display: flex;
     flex-direction: column;
+}
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .projects img {
@@ -257,6 +265,7 @@ p {
 .contact-me #container{
     flex-direction: column;
     float: none;
+    justify-content: center;
 }
 
 .textfields{
@@ -298,4 +307,6 @@ footer{
     justify-content: center;
     display: flex;
 }
+
+
 /* Footer section ends */
